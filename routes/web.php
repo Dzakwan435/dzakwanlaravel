@@ -41,11 +41,13 @@ Route::get('/materi-laravel-10-part-2', function () {
     $alamat = "marendal JL sumber Amal";
     $umur = 20;
     $jurusan = "sistem informasi";
+    $fakultas = "sains & teknologi";
     return " 
     <h1> halo nama saya $nama</h1>
     <h2> alamat saya $alamat</h2>
     <h3> umur saya $umur</h3>
     <h3> saya kuliah di jurusan $jurusan</h3>
+    <h3> fakultas saya $fakultas</h3>
     <a href='/'>home</a><br>
     <a href='/about'>About</a><br>
     <a href='profile'>profile</a><br>
