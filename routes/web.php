@@ -16,3 +16,7 @@ Route::get('/profile', function () {
     $alamat = "medan";
     return view('profile', compact('nama', 'umur', 'alamat',));
 });
+
+Route::get('/mahasiswa', function () {
+    return view('mahasiswa');
+});
