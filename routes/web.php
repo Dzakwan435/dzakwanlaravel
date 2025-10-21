@@ -3,20 +3,21 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('home');
+    return view('index');
+});
+
+Route::get('/profile', function () {
+    return view('profile');
+});
+
+Route::get('/mahasiswa', function () {
+    return view('mahasiswa');
 });
 
 Route::get('/about', function () {
     return view('about');
 });
 
-Route::get('/profile', function () {
-    $nama = "Dzakwan abbas";
-    $umur = 20;
-    $alamat = "medan";
-    return view('profile', compact('nama', 'umur', 'alamat',));
-});
-
-Route::get('/mahasiswa', function () {
-    return view('mahasiswa');
+Route::get('/mahasewa', function () {
+    return view('mahasewa');
 });
