@@ -40,7 +40,7 @@
 <div class= "container my-5">
 <h2> halaman tambah produk </h2>
 <div class="container" style="margin-top: 80px;">
-    <h2>Form tambah produk</h2>
+    <h2>halaman ('page_title')</h2>
 
     <form action="" class="row my-3">
         <div class="col-1 col-md-4 mb-1">
@@ -55,6 +55,9 @@
             <label for="jenis_produk" class="form-label">Jenis Produk</label>
             <select id="jenis_produk" class="form-control">
                 <option selected value="">Pilih Produk</option>
+                @for($i = 0; $i < count($products_type); $i++)
+                    <option value="">{{ $products_type[$i]['jenis'] }}</option>
+                @endfor
             </select>
         </div>
         <div class="col-1 col-md-6 mb-1">
