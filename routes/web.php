@@ -37,7 +37,7 @@ Route::get('/produk', function () {
 
 Route::get('/tambah', function () {
 
-    $products_type = [
+    $products_types = [
         [
             "jenis" => "Alat Tulis"
         ],
@@ -51,7 +51,8 @@ Route::get('/tambah', function () {
     $page_title = "Form Tambah Produk";
     return view('mahasiswa.tambah', [
         'page_title' => $page_title,
-        'products_type' => $products_type
+        'products_types' => $products_types
+        
     ]);
 });
 
