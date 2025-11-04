@@ -39,6 +39,33 @@
 <br>
 <div class= "container my-5">
 <h2> halaman tambah produk </h2>
+<div class="container" style="margin-top: 80px;">
+    <h2>Form tambah produk</h2>
+
+    <form action="" class="row my-3">
+        <div class="col-1 col-md-4 mb-1">
+            <label for="kode_produk" class="form-label">Kode Produk</label>
+            <input type="text" id="kode_produk" class="form-control" placeholder="Input Kode Produk">
+        </div>
+        <div class="col-1 col-md-4 mb-1">
+            <label for="nama_produk" class="form-label">Nama Produk</label>
+            <input type="text" id="nama_produk" class="form-control" placeholder="Input Nama Produk">
+        </div>
+        <div class="col-1 col-md-4 mb-1">
+            <label for="jenis_produk" class="form-label">Jenis Produk</label>
+            <select id="jenis_produk" class="form-control">
+                <option selected value="">Pilih Produk</option>
+            </select>
+        </div>
+        <div class="col-1 col-md-6 mb-1">
+            <label for="harga_produk" class="form-label">Harga</label>
+            <input type="text" id="harga_produk" class="form-control" placeholder="Input Harga">
+        </div>
+        <div class="col-1 col-md-6 mb-1 d-flex align-items-end">
+            <button class="btn btn-success" style="width: 100%;">Simpan</button>
+        </div>
+    </form>
+</div>
 </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
