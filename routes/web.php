@@ -36,7 +36,23 @@ Route::get('/produk', function () {
 });
 
 Route::get('/tambah', function () {
-    return view('mahasiswa.tambah');
+
+    $products_type = [
+        [
+            "jenis" => "Alat Tulis"
+        ],
+        [
+            "jenis" => "Elektronik"
+        ],
+        [
+            "jenis" => "Sembako"
+        ],
+    ];
+    $page_title = "Form Tambah Produk";
+    return view('mahasiswa.tambah', [
+        'page_title' => $page_title,
+        'products_type' => $products_type
+    ]);
 });
 
     
