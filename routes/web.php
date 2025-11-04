@@ -21,3 +21,7 @@ Route::get('/about', function () {
 Route::get('/mahasewa', function () {
     return view('mahasewa');
 });
+
+Route::get('/uts', function () {
+    return view('mahasiswa.uts');
+});
