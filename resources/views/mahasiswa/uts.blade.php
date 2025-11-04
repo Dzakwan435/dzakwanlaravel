@@ -25,21 +25,22 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">produk</a>
+            <a class="nav-link" href="produk">produk</a>
           </li>
         </ul>
         <form class="d-flex mt-3" role="search">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
           <button class="btn btn-outline-success" type="submit">Search</button>
-          <p>soal no 2 uts tadi ke commit bareng no 1</p>
         </form>
       </div>
     </div>
   </div>
 </nav>
 <br>
+<div class= "container my-5">
 <h2> halaman home </h2>
 <p> web ini dibuat untuk melaksanakan uts pbwl</p>
+</div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
